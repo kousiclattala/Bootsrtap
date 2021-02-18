@@ -24,4 +24,8 @@ This is a Bootstrap practice repo. Where i learn bootstrap by doing exercises.
    - Spinners
    - Tooltip
 
+## Note:
+
+Few files need bootstrap modules, which you have to download form official bootstrap domain.
+
 ### To know more visit 👉 [Bootstrap](https://www.getbootstrap.com)
