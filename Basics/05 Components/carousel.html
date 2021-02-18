@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script src="/bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <div class="container border bg-light mt-5">
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide carousel-dark"
+        data-bs-ride="carosuel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/Assets/img.png" class="h-25" alt="First slide" />
+            <div class="carousel-caption text-dark">
+              <h5>First Slide Caption</h5>
+              <p>Something about First Slide</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/Assets/pexels-steshka-willems-1390361.jpg"
+              class="w-50 h-50"
+              alt="Second slide"
+            />
+            <div class="carousel-caption text-dark">
+              <h5>Second Slide Caption</h5>
+              <p>Something about Second Slide</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/Assets/img.png" class="" alt="Third slide" />
+            <div class="carousel-caption text-dark">
+              <h5>Third Slide Caption</h5>
+              <p>Something about Third Slide</p>
+            </div>
+          </div>
+        </div>
+
+        <!--* With controls  -->
+        <!-- <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-slide="prev"
+          data-bs-target="#carouselExampleSlidesOnly"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-slide="next"
+          data-bs-target="#carouselExampleSlidesOnly"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+
+        <a
+          class="carousel-control-prev"
+          type="button"
+          data-bs-slide="prev"
+          data-bs-target="#carouselExampleSlidesOnly"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          type="button"
+          data-bs-slide="next"
+          data-bs-target="#carouselExampleSlidesOnly"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+
+        <!--* With indicators  -->
+
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            class="active"
+            data-bs-target="#carouselExampleSlidesOnly"
+            aria-label="slide 1"
+            data-bs-slide-to="0"
+            aria-current="true"
+            aria-label="slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleSlidesOnly"
+            aria-label="slide 2"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleSlidesOnly"
+            aria-label="slide 3"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6 border bg-dark align-self-center">
+          <img src="/Assets/img.png" width="300" height="300" />
+        </div>
+        <div class="col-6 p-5">
+          <form class="border bg-light p-5">
+            <div class="mb-3">
+              <label for="username" class="form-label">Email</label>
+              <input
+                type="email"
+                name="username"
+                class="form-control"
+                placeholder="Enter your Email Address"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input
+                type="password"
+                name="password"
+                class="form-control"
+                placeholder="Enter Password"
+                aria-describedby="passwordHelper"
+              />
+              <div id="passwordHelper" class="form-text">
+                Password should be of length 6 characters.
+              </div>
+            </div>
+
+            <button class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container border bg-light m-5 p-3">
+            <!--* Heading of form -->
+      <div class="text-center">
+        <h1>Submit Your Resume</h1>
+      </div>
+
+            <!--* Form -->
+      <form class="p-5">
+            <!-- *Email and Password Field -->
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+
+            <!--* CheckBoxes  -->
+        <div class="mb-3">
+          <label class="form-label">Select your Expertise</label>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="Angular" />
+            <label for="Angular" class="form-check-label">Angular</label>
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="React" />
+            <label for="React" class="form-check-label">React</label>
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="Vue" />
+            <label for="Vue" class="form-check-label">Vue</label>
+          </div>
+
+          <div class="for-check">
+            <input type="checkbox" class="form-check-input" name="HTML" />
+            <label for="HTML" class="form-check-label">HTML</label>
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="Javascript" />
+            <label for="Javascript" class="form-check-label">JavaScript</label>
+          </div>
+        </div>
+
+            <!--* Radio Buttons -->
+        <div class="mb-3">
+          <label for="gender" class="form-label">Select your Gender</label>
+
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="male" />
+            <label for="male" class="form-check-label">Male</label>
+          </div>
+
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="female" />
+            <label for="female" class="form-check-label">Female</label>
+          </div>
+
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="others" />
+            <label for="others" class="form-check-label">Others</label>
+          </div>
+        </div>
+
+            <!--* Option Selection -->
+        <div class="mb-3">
+          <label for="country" class="form-label">Select Your Country</label>
+          <select name="selectCountry" class="form-select">
+            <option selected>Select your country</option>
+            <option value="india">India</option>
+            <option value="america">America</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+            <option value="england">England</option>
+            <option value="southAfrica">South Africa</option>
+            <option value="westIndies">West Indies</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+
+            <!--* File Uploads  -->
+        <div class="mb-3">
+          <label for="resume" class="form-label">Upload Your Resume</label>
+          <input type="file" class="form-control" id="formFile" />
+          <div class="form-text">supported files .pdf, .docx, .zip</div>
+        </div>
+
+            <!--* Checkboxes for email alerts  -->
+        <div class="mb3 form-check form-switch">
+          <input type="checkbox" class="form-check-input" id="emailAlerts" />
+          <label for="emailAlerts" class="form-check-label"
+            >Enable Email alerts</label
+          >
+        </div>
+
+            <!--* Checkboxes for Terms and Conditions  -->
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Accept our <b class="text-primary">Terms and Conditions</b></label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div> 
+  </body>
+</html>

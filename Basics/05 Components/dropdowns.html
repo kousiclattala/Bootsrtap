@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdowns</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script src="/bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <!--* DropDown  -->
+    <div class="container border bg-light mt-5">
+      <div class="dropdown">
+        <button
+          class="btn btn-primary dropdown-toggle"
+          id="dropdwonExample"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          type="button"
+        >
+          Dropdown Button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownExample">
+          <li class="dropdown-item">Item 1</li>
+          <li class="dropdown-item">Item 2</li>
+          <li class="dropdown-item">Item 3</li>
+          <li class="dropdown-item">Item 4</li>
+        </ul>
+      </div>
+    </div>
+
+    <!--* Dropdown with seperated menu  -->
+    <div class="container border bg-light mt-5">
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          id="dropdwonExample"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          type="button"
+        >
+          Dropdown Button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownExample">
+          <li class="dropdown-item">Item 1</li>
+          <li class="dropdown-item">Item 2</li>
+          <li class="dropdown-item">Item 3</li>
+          <li class="dropdown-item">Item 4</li>
+          <li class="dropdown-divider"></li>
+          <li class="dropdown-item">Item 5</li>
+        </ul>
+      </div>
+    </div>
+
+    <!--* Split dropdown  -->
+    <div class="container border bg-light mt-5">
+      <div class="dropdown">
+        <div class="btn-group">
+          <button class="btn btn-success">Action</button>
+          <button
+            class="btn btn-success dropdown-toggle dropdown-toggle-split"
+            id="dropdwonExample"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            type="button"
+          >
+            <span class="visually-hidden">Dropdown Button</span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownExample">
+            <li class="dropdown-item">Item 1</li>
+            <li class="dropdown-item">Item 2</li>
+            <li class="dropdown-item">Item 3</li>
+            <li class="dropdown-item">Item 4</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--* Dark menu dropdown  -->
+    <div class="container border bg-light mt-5">
+      <div class="dropdown">
+        <button
+          class="btn btn-info dropdown-toggle"
+          id="dropdwonExample"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          type="button"
+        >
+          Dropdown Button
+        </button>
+        <ul
+          class="dropdown-menu dropdown-menu-dark"
+          aria-labelledby="dropdownExample"
+        >
+          <li class="dropdown-item">Item 1</li>
+          <li class="dropdown-item">Item 2</li>
+          <li class="dropdown-item">Item 3</li>
+          <li class="dropdown-item">Item 4</li>
+        </ul>
+      </div>
+    </div>
+
+    
+  </body>
+</html>

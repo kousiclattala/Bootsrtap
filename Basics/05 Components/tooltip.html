@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToolTip</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script src="/bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <div class="container border bg-light mt-5 p-3">
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="Tooltip on Top"
+      >
+        Tooltip on Top
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-secondary"
+        data-bs-toggle="tooltip"
+        data-bs-placement="right"
+        title="Tooltip on Right"
+      >
+        Tooltip on Right
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-warning"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        title="Tooltip on Left"
+      >
+        Tooltip on Left
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-info"
+        data-bs-toggle="tooltip"
+        data-bs-placement="bottom"
+        title="Tooltip on Bottom"
+      >
+        Tooltip on Bottom
+      </button>
+    </div>
+  </body>
+</html>

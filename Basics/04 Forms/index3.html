@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-group border bg-light p-5 m-5">
+        <p class="text-primary text-center display-6">Sign In</p>
+        <form>
+          <!--*Name Field  -->
+          <div class="row mb-3">
+            <!--* First Name Field  -->
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  id="firstName"
+                  class="form-control"
+                  placeholder="First Name"
+                  required
+                />
+                <label for="firstName" class="form-label">First Name</label>
+              </div>
+            </div>
+
+            <!--* last Name Field  -->
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  id="lastName"
+                  class="form-control"
+                  placeholder="Last Name"
+                />
+                <label for="lastName" class="form-label">Last Name</label>
+              </div>
+            </div>
+          </div>
+
+          <!--*Email Feild  -->
+          <div class="form-floating mb-3">
+            <input
+              type="email"
+              id="email1"
+              class="form-control"
+              placeholder="Enter Email Address"
+              required
+            />
+            <label for="email1" class="form-label">Email Address</label>
+          </div>
+
+          <!--* Password Field  -->
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input
+                  type="password"
+                  id="password1"
+                  class="form-control"
+                  placeholder="Enter Your password"
+                  required
+                />
+                <label for="password1" class="form-label">Password</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input
+                  type="password"
+                  id="password2"
+                  class="form-control"
+                  placeholder="Enter Your password"
+                  required
+                />
+                <label for="password2" class="form-label"
+                  >Re-Enter Password</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <!--* Address Field  -->
+          <!-- <div class="row"> -->
+          <div class="form-floating mb-3">
+            <input
+              type="text"
+              id="address1"
+              class="form-control"
+              placeholder="Door-No, street, Landmark"
+              required
+            />
+            <label for="address1" class="form-label">Address1</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              type="text"
+              id="address2"
+              class="form-control"
+              placeholder="City"
+            />
+            <label for="address2" class="form-label">Address2</label>
+          </div>
+          <!-- </div> -->
+
+          <!--* Address Field 2 -->
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  id="state1"
+                  class="form-control"
+                  placeholder="State"
+                  required
+                />
+                <label for="state1" class="form-label">State</label>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  name="country"
+                  id="country1"
+                  placeholder="Country"
+                  class="form-control"
+                  required
+                />
+                <label for="country1" class="form-label">Country</label>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="form-floating">
+                <input
+                  type="number"
+                  name="pincode"
+                  id="Pincode"
+                  class="form-control"
+                  placeholder="Zip / Postal Code"
+                  required
+                />
+                <label for="Pincode">Pincode/ Zip Code</label>
+              </div>
+            </div>
+          </div>
+
+          <!--* Final CheckBox  -->
+
+          <div class="mb-3">
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="exampleCheckbox1"
+              class="form-check-input"
+              required
+            />
+            <label for="exampleCheckbox1" class="form-check-label"
+              >Please check this box.</label
+            >
+          </div>
+
+          <!--* Submit Button  -->
+
+          <div class="mb-3 text-center">
+            <button type="submit" class="btn btn-primary p-2 h-100 w-25">
+              SignIn
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

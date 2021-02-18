@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script src="/bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <!--* Navbar brand with text  -->
+    <div class="container border bg-light mt-5 p-3">
+      <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand"> NavBar </a>
+        </div>
+      </nav>
+    </div>
+
+    <!--* Navbar brand with img and text  -->
+    <div class="container border bg-light mt-5 p-3">
+      <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">
+            <img src="/Assets/img.png" alt="" width="30" height="30" /> Kola
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <!--* Navbar with brand img,text and nav-items  -->
+    <div class="container border bg-light mt-5 p-3">
+      <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">
+            <img src="/Assets/img.png" alt="" width="30" height="30" /> Kola
+          </a>
+
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link active">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  id="dropdownLabel"
+                  data-bs-toggle="dropdown"
+                  >Services</a
+                >
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownLabel">
+                  <li><a href="#" class="nav-link">Web Dev</a></li>
+                  <li><a href="#" class="nav-link">DevOps</a></li>
+                  <li><a href="#" class="nav-link">Mobile APP</a></li>
+                  <li><a href="#" class="nav-link">Customer Service</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--* Navbar with brand img,text,nav-items and search box  -->
+    <div class="container border bg-light mt-5 p-3">
+      <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">
+            <img src="/Assets/img.png" alt="" width="30" height="30" /> Kola
+          </a>
+
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link active">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  id="dropdownLabel"
+                  data-bs-toggle="dropdown"
+                  >Services</a
+                >
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownLabel">
+                  <li><a href="#" class="nav-link">Web Dev</a></li>
+                  <li><a href="#" class="nav-link">DevOps</a></li>
+                  <li><a href="#" class="nav-link">Mobile APP</a></li>
+                  <li><a href="#" class="nav-link">Customer Service</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <form class="d-flex">
+            <input type="search" class="form-control" placeholder="search" />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>
